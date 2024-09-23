@@ -12,4 +12,5 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
         messageDiv.textContent = "Formulário inválido! O campo B deve ser maior que o campo A.";
         messageDiv.className = "message error";
     }
+    
 });
